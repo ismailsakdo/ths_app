@@ -22,7 +22,7 @@ def predict_health(temperature, humidity):
 
 # Streamlit App
 def main():
-    st.title("Health Prediction")
+    st.title("Sick Building Syndrome (SBS) & Health Prediction: ThermoHygroSense")
 
     # Temperature slider
     temperature = st.slider("Temperature (Celcius)", 0, 100, 25)
